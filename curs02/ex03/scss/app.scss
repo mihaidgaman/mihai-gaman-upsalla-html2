@@ -1,0 +1,12 @@
+@mixin btnClass($className, $propertyName, $color) {
+  #{$className} {
+    #{$propertyName}: $color;
+  }
+}
+
+@include btnClass('.btn-primary', 'color', purple);
+@include btnClass('.btn-inverted-light', 'background-color', lightgray);
+@include btnClass('.btn-secondary', 'color', blue);
+@include btnClass('.btn-inverted', 'background-color', transparent);
+@include btnClass('.btn-tertiary', 'color', green);
+@include btnClass('.btn-text-gray', 'color', gray);

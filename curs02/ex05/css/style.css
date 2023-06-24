@@ -1,0 +1,87 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.box-1 {
+  border: 1px dotted red;
+}
+
+.box-2 {
+  background: gray;
+}
+
+.box-3 {
+  border: 3px dotted red;
+}
+
+.box-4 {
+  background: gray;
+}
+
+.box-5 {
+  border: 5px dotted red;
+}
+
+.box-6 {
+  background: gray;
+}
+
+.box-7 {
+  border: 7px dotted red;
+}
+
+.box-8 {
+  background: gray;
+}
+
+.box-9 {
+  border: 9px dotted red;
+}
+
+.box-02 {
+  width: 150px;
+  height: 150px;
+  border: 2px solid red;
+}
+
+.box-02 {
+  border-width: 2px;
+}
+
+.box-03 {
+  border-width: 3px;
+}
+
+.box-04 {
+  border-width: 4px;
+}
+
+.box-05 {
+  border-width: 5px;
+}
+
+.box-06 {
+  border-width: 6px;
+}
+
+.box-07 {
+  border-width: 7px;
+}
+
+.box-08 {
+  border-width: 8px;
+}
+
+.box-09 {
+  border-width: 9px;
+}
+
+/*# sourceMappingURL=style.css.map */
