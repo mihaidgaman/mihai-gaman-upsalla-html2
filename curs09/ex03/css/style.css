@@ -48,3 +48,39 @@ body {
   color: #fff;
 }
 /* please do not modify this code */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-02 {
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex-container-04 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-06 {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}

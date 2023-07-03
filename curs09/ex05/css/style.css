@@ -48,3 +48,67 @@ body {
   color: #fff;
 }
 /* please do not modify this code */
+
+.flex-container-01 {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-01 :nth-last-child(1) {
+  align-self: flex-start;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-02 :nth-of-type(5) {
+  align-self: flex-end;
+}
+
+.flex-container-03 {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+/* just 4 fun */
+.flex-container-03 :nth-child(4) {
+  align-self: stretch;
+  width: unset;
+  max-width: unset;
+}
+
+.flex-container-04 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.flex-container-04 :nth-last-child(1) {
+  align-self: flex-start;
+}
+
+.flex-container-05 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-05 :nth-last-child(2) {
+  align-self: stretch;
+  width: unset;
+  max-width: unset;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.flex-container-06 :nth-child(3) {
+  align-self: flex-end;
+}

@@ -50,3 +50,75 @@
   left: 10px;
 }
 /* please do not modify this code */
+
+.flex-container-01 {
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-01 :nth-child(2) {
+  flex-shrink: 2;
+}
+
+.flex-container-02 {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-02 .one {
+  flex-shrink: 2;
+}
+
+.flex-container-02 .three {
+  flex-shrink: 3;
+}
+
+.flex-container-03 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-03 :nth-child(3) {
+  flex-shrink: 2;
+}
+
+.flex-container-03 :last-child {
+  flex-shrink: 3;
+}
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-04 :nth-last-child(2) {
+  flex-shrink: 2;
+}
+
+.flex-container-04 :nth-last-child(3) {
+  flex-shrink: 3;
+}
+
+.flex-container-05 {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-05 :nth-child(2) {
+  flex-shrink: 2;
+}
+
+.flex-container-06 {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-container-06 :nth-child(3) {
+  flex-shrink: 3;
+}
+
+.flex-container-06 :nth-last-child(1) {
+  flex-shrink: 0;
+}
