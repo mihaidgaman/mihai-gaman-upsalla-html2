@@ -14,9 +14,12 @@
   <title>Display</title>
 
   <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
   >
+
   <style>
     .box {
       border: 1px solid #000;
@@ -24,7 +27,6 @@
       height: 120px;
       padding: 5px;
     }
-
   </style>
 
   <link
@@ -33,11 +35,11 @@
   >
 </head>
 
-<body>
-  <div class="box">1</div>
-  <div class="box">2</div>
-  <div class="box">3</div>
-  <div class="box">4</div>
+<body class="text-white">
+  <div class="box bg-danger border d-md-none d-lg-block d-xl-inline">1</div>
+  <div class="box bg-success border d-lg-none d-xl-inline">2</div>
+  <div class="box bg-dark border d-lg-none d-xl-inline">3</div>
+  <div class="box bg-info border d-md-none d-lg-block d-xl-inline">4</div>
 
   <div
     class="pixeltab-host"

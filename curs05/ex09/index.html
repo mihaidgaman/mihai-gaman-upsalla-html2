@@ -17,6 +17,14 @@
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   >
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  >
+
   <style>
     .box {
       border: 1px solid #000;
@@ -24,7 +32,6 @@
       height: 120px;
       padding: 5px;
     }
-
   </style>
 
   <link
@@ -34,10 +41,10 @@
 </head>
 
 <body>
-  <div class="box">1</div>
-  <div class="box">2</div>
-  <div class="box">3</div>
-  <div class="box">4</div>
+  <div class="box bg-danger border d-inline d-md-none d-inline-block d-lg-block">1</div>
+  <div class="box bg-success border d-inline d-lg-none d-xl-block d-inline-block">2</div>
+  <div class="box bg-dark border d-none d-sm-inline d-lg-none d-sm-inline-block d-xl-block">3</div>
+  <div class="box bg-info border d-none d-sm-inline d-md-none d-lg-block d-sm-inline-block">4</div>
 
   <div
     class="pixeltab-host"
