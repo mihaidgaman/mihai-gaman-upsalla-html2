@@ -25,3 +25,34 @@
   background-color: lightseagreen;
 }
 /* please do not modify this code */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 120px 1fr 400px 2fr 350px 10px;
+  grid-template-rows: 150px;
+}
+
+.grid-container .grid-item-1 {
+  justify-self: end;
+  align-self: end;
+}
+
+.grid-container .grid-item-2 {
+  justify-self: center;
+  align-self: start;
+}
+
+.grid-container .grid-item-3 {
+  justify-self: end;
+  align-self: center;
+}
+
+.grid-container .grid-item-4 {
+  justify-self: start;
+  align-self: start;
+}
+
+.grid-container .grid-item-5 {
+  justify-self: start;
+  align-self: end;
+}

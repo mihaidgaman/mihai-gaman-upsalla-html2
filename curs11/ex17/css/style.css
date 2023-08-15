@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  grid-auto-columns: 150px;
+}
+
+.grid-container :first-child {
+  background-color: lightblue;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.grid-container :nth-child(2) {
+  background-color: lightblue;
+  grid-column: 8 / 10;
+}
